@@ -1,20 +1,32 @@
-header {
 
+header {
+    background-color: red;
+    border-image-width: url('/lab-assets/hr-img.png');
 }
+
+header > span {
+    position: absolute;
+    right: 0px;
+}
+
+#logo {
+position: absolute;}
 
 h1 {
-
+    margin-left: 47px;
+    margin-bottom: 0px;
 }
-
 header > img {
 
 }
 
 header > p {
-
+    margin-left: 47px;
+    margin-top: 0px;
 }
 
 body {
+    text-indent: 120px;
 
 }
 
@@ -39,7 +51,9 @@ body > img {
 }
 
 ul {
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 input {
@@ -51,7 +65,7 @@ li {
 }
 
 footer {
-
+    background-color: chartreuse;
 }
 
 #van {
