@@ -2,20 +2,47 @@ header {
 
 }
 
-h1 {
-
+#logo {
+position: absolute;
+left: 100px;
+top: 30px;
 }
 
-header > img {
 
+h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40pt;
+    margin-top: 0;
+    margin-left: 47px;
+    margin-bottom: 0px;
+}
+
+header > span {
+    position: absolute;
+    right: 20px;
+    top: 50px;
 }
 
 header > p {
+    font-family: Arial Narrow, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 10pt;
+    margin-left: 47px;
+    margin-top: 0px;
+}
 
+header::after {
+    content: "";
+    display: block;
+    height: 10px;
+    background-image: url(./lab-assets/hr-img.png);
+    background-repeat: repeat;
+    background-position: center bottom;
 }
 
 body {
-
+    text-indent: 120px;
 }
 
 h3 {
@@ -39,7 +66,9 @@ body > img {
 }
 
 ul {
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 input {
@@ -51,7 +80,7 @@ li {
 }
 
 footer {
-
+    background-color: chartreuse;
 }
 
 #van {
@@ -75,5 +104,6 @@ footer > img {
 }
 
 .gray {
-
+    
 }
+
