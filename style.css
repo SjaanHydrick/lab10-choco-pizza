@@ -107,23 +107,38 @@ li {
 
 footer {
     margin-top: 30px;
-    background-color: chartreuse;
+
+}
+
+footer::before {
+    content: "";
+    display: block;
+    height: 10px;
+    background-image: url(./lab-assets/hr-img.png);
+    background-repeat: repeat;
+    background-position: center bottom;
+    margin-bottom: 10px;
 }
 
 #van {
-
+    position: absolute;
+    left: 15%;
 }
 
 h4 {
-
+    margin-left: 15%;
+    margin-bottom: 0;
+    font-size: 16pt;
+    
 }
 
 footer > p {
-
+    margin-left: 15%;
+    margin-top: 5px;
 }
 
 button {
-
+    float: right;
 }
 
 footer > img {
