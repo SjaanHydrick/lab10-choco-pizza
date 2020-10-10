@@ -150,7 +150,15 @@ button {
     font-size: 16pt;
 }
 
-.gray {
-    
+#foot-logo {
+    position: absolute;
+    margin-left: 38.5%;
+
+}
+
+.gray { 
+    margin-top: 100px;
+    text-align: center;
+    color: gray;
 }
 
